@@ -40,6 +40,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="begin:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="VzT-5H-cTz"/>
+                                    <action selector="change:" destination="BYZ-38-t0r" eventType="editingChanged" id="tX8-cL-l7j"/>
+                                    <action selector="end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Jgc-6N-gjY"/>
+                                    <action selector="trigged:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="WfF-oF-MsV"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bi0-1X-5dL">
                                 <rect key="frame" x="44" y="289" width="41" height="36"/>
@@ -123,8 +129,8 @@
                     <connections>
                         <outlet property="btSubmit" destination="Bi0-1X-5dL" id="oNL-6V-Mcn"/>
                         <outlet property="lbResult" destination="iL3-Qc-LuT" id="oSn-Ro-xYb"/>
-                        <outlet property="tfNumber01" destination="B5X-9G-vN0" id="Uca-Zq-ImT"/>
-                        <outlet property="tfNumber02" destination="1Va-Ki-KR2" id="qGT-Zl-I62"/>
+                        <outlet property="tfNumber01" destination="B5X-9G-vN0" id="g6s-ix-5uY"/>
+                        <outlet property="tfNumber02" destination="1Va-Ki-KR2" id="dVj-G9-KFK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
