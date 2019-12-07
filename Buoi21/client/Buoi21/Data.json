@@ -1,0 +1,82 @@
+
+    [{
+        "id" : "1" ,
+        "title" : "Thể thao",
+        "new": [{
+                "tieude" :"U22 Việt Nam - Campuchia (hết hiệp 1) 3-0: Đức Chinh lập cú đúp",
+                "Noidung" : "TTO - Phút 45+2, Thái Quý thực hiện đường chuyền chuẩn xác vào trong cho Đức Chinh đánh đầu ghi bàn nâng tỉ số lên 3-0 cho U22 Việt Nam. Đây cũng là tỉ số cuối cùng của hiệp 1.",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            },
+            {
+                "tieude" :"U22 VietName vo dich seagame",
+                "Noidung" : "Video thủ môn U22 Indonesia 'tặng' bàn thắng cho Myanmar",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            
+            
+            }]
+        },
+        {
+        "id" : "2" ,
+        "title" : "Văn hoá",
+        "new": [{
+                "tieude" :"U22 VietName vs Campudia",
+                "Noidung" : "Noi dung",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            },
+            {
+                "tieude" :"U22 VietName vo dich seagame",
+                "Noidung" : "Noi dung",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            
+            
+            }]
+        },
+        {
+        "id" : "3" ,
+        "title" : "Văn hoá",
+        "new": [{
+                "tieude" :"Chúng ta đang không có phê bình, chỉ có bình luận, nịnh nhau và ném đá",
+                "Noidung" : "TTO - ‘Những năm gần đây chúng ta không có phê bình văn học nghệ thuật, mà chỉ có bình luận, chỉ có nịnh nhau hoặc ném đá là chính’.",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            },
+            {
+                "tieude" :"Tuyết Sài Gòn - nhạc kịch của Buffalo - về Thế giới trẻ mùa Noel này",
+                "Noidung" : "TTO - Nhóm nhạc kịch Buffalo vừa đưa vở nhạc kịch Tuyết Sài Gòn về diễn tại sân khấu Thế giới trẻ. Sau một thời gian gián đoạn, nhóm Buffalo lại được nhảy múa, ca hát tưng bừng trong mùa Noel, Tết dương lịch 2020 tại Thế giới trẻ.",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            
+            
+            }]
+        },
+        {
+        "id" : "4" ,
+        "title" : "Chính trị",
+            "new": [{
+                "tieude" :"Ông Trump chưa xem băng đảng ma túy là khủng bố, Mexico thở phào",
+                "Noidung" : "TTO - Tổng thống Trump cho biết ông sẽ tạm thời hoãn xếp các băng đảng ma túy của Mexico vào danh sách các tổ chức khủng bố. Phía Mexico liền vui mừng với quyết định này.",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            },
+            {
+                "tieude" :"Xài cột điện gỗ cũ kỹ, công ty Mỹ phải bồi thường nặng vì gây cháy",
+                "Noidung" : "TTO - Các đường dây điện và trạm biến áp của PG & E bị chập điện làm bùng phát đám cháy thiêu rụi hàng ngàn căn nhà, khiến 86 người chết trong năm ngoái. Công ty này vừa đồng ý bỏ ra hơn 13,5 tỉ USD bồi thường. ",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            
+            
+            }]
+        },
+        {
+        "id" : "5" ,
+        "title" : "Kinh tế",
+            "new": [{
+                "tieude" :"'Thái mềm, Thái dẻo, Thái thơm'... té ra là gạo Việt trộn",
+                "Noidung" : "Thị trường gạo ở vựa lúa miền Tây Nam Bộ và TP.HCM hiện có đến vài chục loại được bày bán. Tuy nhiên, người tiêu dùng rất khó nhận biết được gạo ngon, gạo dở, nguồn gốc và phẩm cấp ra sao.",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            },
+            {
+                "tieude" :"Phở? Không phải phở! Phở? Không phải!",
+                "Noidung" : "TTO - Những gia vị đặc trưng làm nên món phở như quế, hồi, lá rau quế... đã thành nguồn cảm hứng vô tận cho “tín đồ” tìm kiếm, thử nghiệm, để truyền tiếp cái linh hồn ấy vào những món ăn thức uống như chocolate hay cà phê...",
+                "imgURL" : "https://cdn.24h.com.vn/upload/4-2019/images/2019-12-07/79754199_3213591588667890_7997846343492042752_n-1575723855-154-width600height399.jpg"
+            
+            
+            }]
+    }]
+   
