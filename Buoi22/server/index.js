@@ -3,14 +3,14 @@ const app = express();
 
 var arrProducts = [
     new Product('iPhone', '999', 'smart phone'),
-    new Product('iPhone', '999', 'smart phone'),
-    new Product('iPhone', '999', 'smart phone')
+    new Product('iPhone 1', '999', 'smart phone'),
+    new Product('iPhone 2', '999', 'smart phone')
 ];
 
 function Product(name, price, description){
-    this.NAME = name;
-    this.PRICE = price;
-    this.DESCRIPTION = description;
+    this.name = name;
+    this.price = price;
+    this.description = description;
 }
 
 // route

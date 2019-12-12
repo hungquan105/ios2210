@@ -10,14 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var lbApp: UILabel!
+    
+    var arrProducts:[Product] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         // URL
-        let url:URL = URL(string: "http://localhost:3000/ios")!
+        let url:URL = URL(string: "http://localhost:3000/android")!
         var req:URLRequest = URLRequest(url: url)
         req.httpMethod = "GET"
         // DATA
@@ -26,11 +29,12 @@ class ViewController: UIViewController {
             print(str)
             // JSON
             do {
-                let json = try JSONDecoder.init().decode(app.self, from: data!)
-                print(json.name)
+                let json = try JSONDecoder.init().decode([Product].self, from: data!)
+//                print(json.name)
                 
                 DispatchQueue.main.async {
-                    self.lbApp.text = json.name
+                    self.arrProducts = json
+                    self.tableView.reloadData()
                 }
                 
             } catch {
@@ -41,6 +45,30 @@ class ViewController: UIViewController {
         
     }
 
+}
+
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return arrProducts.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ProductListCell", for: indexPath) as! ProductListCell
+        cell.bindData(pro: arrProducts[indexPath.row])
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
+    
+}
+
+struct Product: Codable {
+    let name: String
+    let description: String
+    let price: String
 }
 
 struct app: Codable {

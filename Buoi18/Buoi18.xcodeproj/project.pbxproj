@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		147EA81D23991C69006019C9 /* MoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147EA81C23991C69006019C9 /* MoreDetailViewController.swift */; };
-		147EA81F23991F34006019C9 /* AmountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147EA81E23991F34006019C9 /* AmountCell.swift */; };
 		149F29CB2396A7F800F37A9D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149F29CA2396A7F800F37A9D /* ProductCell.swift */; };
 		149F29CD2396A81900F37A9D /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149F29CC2396A81900F37A9D /* CustomerCell.swift */; };
 		14D4769023969197009BF521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4768F23969197009BF521 /* AppDelegate.swift */; };
@@ -26,8 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		147EA81C23991C69006019C9 /* MoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailViewController.swift; sourceTree = "<group>"; };
-		147EA81E23991F34006019C9 /* AmountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountCell.swift; sourceTree = "<group>"; };
 		149F29CA2396A7F800F37A9D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		149F29CC2396A81900F37A9D /* CustomerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCell.swift; sourceTree = "<group>"; };
 		14D4768C23969197009BF521 /* Buoi18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buoi18.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,8 +86,6 @@
 				14D4769123969197009BF521 /* SceneDelegate.swift */,
 				14D4769323969197009BF521 /* ViewController.swift */,
 				14D4769523969197009BF521 /* Main.storyboard */,
-				147EA81E23991F34006019C9 /* AmountCell.swift */,
-				147EA81C23991C69006019C9 /* MoreDetailViewController.swift */,
 				14D476AD2396962D009BF521 /* DetailViewController.swift */,
 				14D476AB23969424009BF521 /* ProductListItemCell.swift */,
 				14D476A923969402009BF521 /* CategoryItemCell.swift */,
@@ -176,14 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				147EA81F23991F34006019C9 /* AmountCell.swift in Sources */,
 				14D476AE2396962D009BF521 /* DetailViewController.swift in Sources */,
 				14D476AC23969424009BF521 /* ProductListItemCell.swift in Sources */,
 				14D4769423969197009BF521 /* ViewController.swift in Sources */,
 				14D476A42396920F009BF521 /* BannerCell.swift in Sources */,
 				14D476AA23969402009BF521 /* CategoryItemCell.swift in Sources */,
 				14D4769023969197009BF521 /* AppDelegate.swift in Sources */,
-				147EA81D23991C69006019C9 /* MoreDetailViewController.swift in Sources */,
 				14D4769223969197009BF521 /* SceneDelegate.swift in Sources */,
 				149F29CB2396A7F800F37A9D /* ProductCell.swift in Sources */,
 				149F29CD2396A81900F37A9D /* CustomerCell.swift in Sources */,
