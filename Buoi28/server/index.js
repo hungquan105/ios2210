@@ -10,6 +10,7 @@ const jwt = require('jsonwebtoken');
 const secret = 'khoapham';
 
 app.get('/login', function(req,res){
+    console.log('GET');
     // const {username, password} = req.body;
     const token = jwt.sign({
         username : 'khoapham',
