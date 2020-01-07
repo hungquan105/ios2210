@@ -73,7 +73,7 @@ app.post('/array', upload.array('photos', 10), function (req, res, next) {
         //     res.json(result.rowCount);
         // });
     // });
-    res.json({result: true, message: 'Tai len thanh cong', data: photos, code: res.statusCode});
+    res.json({result: true, message: 'Tai len thanh cong', data: photos});
     // pool.end();
 });
 

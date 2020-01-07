@@ -75,12 +75,12 @@
 		14FE884B23BE098500E5E3AD /* client */ = {
 			isa = PBXGroup;
 			children = (
+				14FE885223BE098500E5E3AD /* Main.storyboard */,
 				143223D223BE0AB900510755 /* Request.swift */,
+				14FE885023BE098500E5E3AD /* ViewController.swift */,
+				1491A77623BE31D800EC46AC /* PhotoItemCell.swift */,
 				14FE884C23BE098500E5E3AD /* AppDelegate.swift */,
 				14FE884E23BE098500E5E3AD /* SceneDelegate.swift */,
-				14FE885023BE098500E5E3AD /* ViewController.swift */,
-				14FE885223BE098500E5E3AD /* Main.storyboard */,
-				1491A77623BE31D800EC46AC /* PhotoItemCell.swift */,
 				14FE885523BE098600E5E3AD /* Assets.xcassets */,
 				14FE885723BE098600E5E3AD /* LaunchScreen.storyboard */,
 				14FE885A23BE098600E5E3AD /* Info.plist */,
