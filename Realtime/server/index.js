@@ -15,6 +15,14 @@ io.on('connection', function(socket){
         console.log(data);
         // emit
     });
+
+    socket.on('client-send', function(data){
+        console.log(data);
+        // gui cho chinh minh
+        // socket.emit('send-myself', data);
+        // gui cho so con lai
+        socket.broadcast.emit('server-send', data);
+    }); 
 });
 
 server.listen(3000);

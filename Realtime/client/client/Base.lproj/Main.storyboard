@@ -15,22 +15,73 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rh4-fd-ac0">
-                                <rect key="frame" x="178" y="433" width="59" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Click Me"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FVe-BO-grk">
+                                <rect key="frame" x="0.0" y="828" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfK-m9-0an">
+                                <rect key="frame" x="354" y="828" width="60" height="34"/>
+                                <state key="normal" title="Send"/>
                                 <connections>
-                                    <action selector="Click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OvV-3l-38d"/>
+                                    <action selector="Send:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PM7-ml-KQO"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h37-AZ-16l">
+                                <rect key="frame" x="0.0" y="44" width="414" height="784"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ContentCell" id="jF4-fv-HvF" customClass="ContentCell" customModule="client" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jF4-fv-HvF" id="dxa-wx-S0T">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFC-AC-jnf" customClass="Content" customModule="client" customModuleProvider="target">
+                                                    <rect key="frame" x="16" y="16" width="42" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lbContent" destination="SFC-AC-jnf" id="aHn-NY-7QO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="dY7-nx-Hcb"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="3ON-Ps-pQT"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h37-AZ-16l" secondAttribute="trailing" id="0Tx-7A-cb9"/>
+                            <constraint firstItem="FVe-BO-grk" firstAttribute="top" secondItem="h37-AZ-16l" secondAttribute="bottom" id="3YP-ze-FDi"/>
+                            <constraint firstItem="ZfK-m9-0an" firstAttribute="leading" secondItem="FVe-BO-grk" secondAttribute="trailing" id="IYs-3l-saJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZfK-m9-0an" secondAttribute="bottom" id="ItF-mK-H4c"/>
+                            <constraint firstItem="h37-AZ-16l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VYR-Av-vNz"/>
+                            <constraint firstItem="ZfK-m9-0an" firstAttribute="height" secondItem="FVe-BO-grk" secondAttribute="height" id="ZCa-PA-IFm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZfK-m9-0an" secondAttribute="trailing" id="hha-u5-BLm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FVe-BO-grk" secondAttribute="trailing" constant="60" id="lEZ-Tm-ko8"/>
+                            <constraint firstItem="FVe-BO-grk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oIN-bK-V10"/>
+                            <constraint firstItem="h37-AZ-16l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u6h-HN-1Ey"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FVe-BO-grk" secondAttribute="bottom" id="yce-ey-Iu0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="h37-AZ-16l" id="MvG-cZ-1hd"/>
+                        <outlet property="tfContent" destination="FVe-BO-grk" id="eTJ-J0-idk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="113"/>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
         </scene>
     </scenes>
 </document>

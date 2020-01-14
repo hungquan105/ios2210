@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		149C021923C75C5C008F7373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149C021723C75C5C008F7373 /* Main.storyboard */; };
 		149C021B23C75C5D008F7373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149C021A23C75C5D008F7373 /* Assets.xcassets */; };
 		149C021E23C75C5D008F7373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149C021C23C75C5D008F7373 /* LaunchScreen.storyboard */; };
+		14B5585223CDF62100949D18 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B5585123CDF62100949D18 /* ContentCell.swift */; };
+		14B5585423CE040E00949D18 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B5585323CE040E00949D18 /* Content.swift */; };
 		2171CAB4C7E55E87C30A1F20 /* Pods_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA1FD8A6D18CE0B700C9222 /* Pods_client.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		149C021A23C75C5D008F7373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		149C021D23C75C5D008F7373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		149C021F23C75C5D008F7373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B5585123CDF62100949D18 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		14B5585323CE040E00949D18 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		1CC824BB73BDA55B58FF7F3D /* Pods-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client.debug.xcconfig"; path = "Target Support Files/Pods-client/Pods-client.debug.xcconfig"; sourceTree = "<group>"; };
 		7BA1FD8A6D18CE0B700C9222 /* Pods_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5026DF7DBC6398DA39F2AF1 /* Pods-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client.release.xcconfig"; path = "Target Support Files/Pods-client/Pods-client.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				149C021323C75C5C008F7373 /* SceneDelegate.swift */,
 				149C021523C75C5C008F7373 /* ViewController.swift */,
 				149C021723C75C5C008F7373 /* Main.storyboard */,
+				14B5585123CDF62100949D18 /* ContentCell.swift */,
+				14B5585323CE040E00949D18 /* Content.swift */,
 				149C021A23C75C5D008F7373 /* Assets.xcassets */,
 				149C021C23C75C5D008F7373 /* LaunchScreen.storyboard */,
 				149C021F23C75C5D008F7373 /* Info.plist */,
@@ -80,7 +86,6 @@
 				1CC824BB73BDA55B58FF7F3D /* Pods-client.debug.xcconfig */,
 				E5026DF7DBC6398DA39F2AF1 /* Pods-client.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -210,6 +215,8 @@
 				149C021623C75C5C008F7373 /* ViewController.swift in Sources */,
 				149C021223C75C5C008F7373 /* AppDelegate.swift in Sources */,
 				149C021423C75C5C008F7373 /* SceneDelegate.swift in Sources */,
+				14B5585423CE040E00949D18 /* Content.swift in Sources */,
+				14B5585223CDF62100949D18 /* ContentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
